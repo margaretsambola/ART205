@@ -1,0 +1,361 @@
+/* Basic Style */
+main {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+padding-left: 5%;
+padding-right: 8%;
+}
+span {
+    color: red;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+       
+}
+
+p {
+    color: rgb(75, 75, 75);
+    text-align: justify;
+}
+h3 {
+    color: rgb(75, 75, 75);;
+}
+.header {
+    width: 100%;
+    height: auto;
+
+}
+
+.navi {
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.navi > ul {
+    list-style: none;
+     
+}
+
+.navi > li {
+    display: inline-block;
+    word-spacing: 5px;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(248, 248, 221);
+
+}
+.content {
+    width: 100%;
+    height: auto;
+    font-size: 1.7em;
+    padding: 20px;
+}
+
+.content > h3 {
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 83, 69);
+    margin:1% 0%;
+    
+}
+
+.content > h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+
+.content > img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    
+}
+
+.entity {
+    list-style: none;
+    font-size: 1.2em;
+    color: whitesmoke;
+    float: left;
+    
+}
+
+
+.lot > table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+  
+}
+
+.footer {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: ivory;
+    font-size: 20px;
+    text-align: center;
+
+    
+
+
+}
+
+#tab{
+    border: black;
+    background-color:  blue;
+    margin-bottom: 0px;
+    padding: 2px;;
+}
+#tab th, td, tr{
+    padding: 10px;
+    width:700px;
+    height: 8px;
+    margin-left:10%;
+    margin-right:10%;
+    position: center;
+color: white;
+}
+
+#form{
+
+    background-color: red;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-right: 30px;
+    border-radius: 5px;
+
+   
+}
+#name, #email, #website, #subject {
+    border-radius: 7px;
+    width: 100%;
+    height: 45px;
+}
+#form label{
+    font-weight: 200;
+    color: black;
+    font-size: large;
+    
+}
+#form input{
+    font-weight: 600;
+    color: black
+    font-size: large;
+    
+}
+#message {
+    border-radius: 7px;
+    width: 100%;
+    height: 70px;
+}
+#sub{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    background-color:rgb(91, 231, 91);
+    color: white;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: white;
+}
+img{
+  width: 60px;
+  height: 60px;
+}
+.container{
+  display: grid;
+
+}
+.container__box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+  gap: 15px;
+}
+.container .container__box .box{
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 5px 5px 6px #333;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: .2s, linear;
+}
+.container__heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color: red;
+ 
+  font-size: 50px;
+  font-weight: 600;
+}
+.container .container__box .box h3{
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+}
+.container .container__box .box p{
+  font-size: 14px;
+  font-weight: 100;
+  color: #555;
+}
+.container .container__box .box a{
+  border-radius: 4px;
+  background:#444;
+  color: white;
+}
+.container .container__box .box a:hover{
+  background: #908080;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+img {
+  display: block;
+  width: 300px;
+height:300px;
+}
